@@ -1,0 +1,392 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Stolzl';
+            overflow-x: hidden;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .default-width {
+            max-width: 1451px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+        
+        .screen-1 {
+            height: 100vh;
+        }
+        
+        .hr {
+            border: 0.5px solid #9B9B9B;
+            opacity: 20%;
+            margin-bottom: 35.5px;
+        }
+        
+        header {
+            font-family: 'TT Norms';
+            max-width: 1577px;
+            margin: 0 auto;
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 31px;
+            margin-bottom: 35.5px;
+            height: auto;
+        }
+        
+        .links-left {
+            align-items: center;
+            display: flex;
+        }
+        
+        header a {
+            margin-right: 40px;
+            color: #6E6E6E;
+        }
+        
+        .logo {
+            margin-right: 71.9px;
+        }
+        
+        .reg {
+            border: 1px solid #04BC02;
+            color: #04BC02;
+            padding: 10px 33px;
+            border-radius: 35px;
+        }
+        
+        .links-right {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 493px;
+        }
+        
+        .links-heder {
+            margin-right: 0px;
+            color: #9B9B9B;
+        }
+        
+        .navagation {
+            margin-top: px;
+        }
+        
+        .number p {
+            font-weight: bold;
+            font-size: 23px;
+        }
+        
+        .number span {
+            color: #9B9B9B;
+        }
+        
+        .number {
+            max-width: 1577px;
+            margin: 0 auto;
+            padding: 0 30px;
+            margin-right: 396px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-bottom: 125px;
+            height: auto;
+        }
+        
+        .info {
+            display: flex;
+            margin-bottom: 115.5px
+        }
+        
+        .main-info span {
+            color: #04BC02;
+            font-size: 19px;
+            font-weight: 400;
+            font-family: 'Stolzl';
+            margin-bottom: 10px;
+        }
+        
+        .main-info {
+            font-family: 'Stolzl';
+            display: flex;
+            flex-direction: row;
+
+        }
+        
+        .main-info h1 {
+            font-size: 56px;
+            margin-bottom: 30px;
+        }
+        
+        .main-info p {
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        
+        .info-left {
+            width: 732px;
+            margin-right: 63.5px;
+            height: auto;
+        }
+        
+        .info-raight {
+            width: 647.47px;
+           
+            /* margin-left: 795.5px; */
+        }
+        
+        .green-link {
+            display: block;
+            color: #04BC02;
+            text-align: center;
+            border-radius: 35px;
+            font-size: 20px;
+            border: 1px solid;
+            padding: 34px 21px;
+            width: 205px;
+        }
+        
+        .activiti {
+            background-color: #04BC02;
+            width: 259px;
+            color: white;
+        }
+        
+        .green-links {
+            display: flex;
+            width: 478px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .more-details {
+            max-width: 1577px;
+            margin: 0 auto;
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 33px;
+        }
+        
+        .more-details span {
+            margin-right: 13.7px;
+        }
+        
+        .line {
+            display: block;
+            height: 26px;
+            background-color: #9B9B9B;
+            width: 2px;
+            margin-left: 20.5px;
+            margin-right: 15.5px;
+        }
+        
+        .raight-more-detals {
+            display: flex;
+            align-items: center;
+        }
+        
+        .screen-2 {
+            height: 100vh;
+            margin: 0 auto;
+        }
+        
+        .bg-color {
+            height: 79vh;
+            display: flex;
+            margin-bottom: 134px;
+            
+        }
+        
+        .taxi-left {
+            margin-top: 227px;
+            left: 400px;
+            margin-bottom: 134px;
+        }
+        
+        .taxi-raght {
+            left: 1100px;
+            margin-top: 134px;
+            width: 776px;
+        }
+        
+        .green-lane {
+            background-color: #04BC02;
+            width: 73px;
+            height: 1px;
+            margin-top: 5.5px;
+            margin-bottom: 5.5px;
+        }
+        
+        .flex {
+            display: flex;
+            height: auto;
+        }
+        
+        .defolt-h1 {
+            font-size: 38px;
+            font-weight: 350;
+            margin-bottom: 35px;
+        }
+        
+        .greed {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+            grid-gap: 44px;
+            margin: 0 auto;
+            margin-top: 65px;
+            
+            align-items: center;
+        }
+        
+        .item h1 {
+            font-size: 24px;
+            font-weight: 300;
+            margin-top: 14px;
+            margin-bottom: 12px;
+        }
+        
+        .item p {
+            width: 354px;
+            color: #9B9B9B;
+        }
+        
+        .green-link-2 {
+            color: #04BC02;
+            border: 3px solid #04BC02;
+            padding: 16px 78px;
+            display: flex;
+            text-align: center;
+            width: 341px;
+            border-radius: 10px;
+        }
+        
+        .defolt-span {
+            font-size: 12px;
+            font-weight: 300;
+        }
+        
+        .boot {
+            width: 190px;
+        }
+        
+        .item-city .img {
+            width: 100%;
+        }
+        
+        .item-city {
+            width: 353px;
+        }
+        
+        .city-treval {
+            font-size: 23px;
+            font-weight: 300;
+            margin-bottom: 11px;
+        }
+        
+        .city {
+            margin: 23px 0px 11px 26px;
+        }
+        
+        .defolt-color {
+            color: #9B9B9B;
+        }
+        
+        .go {
+            font-size: 11px;
+            font-weight: 300;
+            margin-top: 22px;
+            margin-bottom: 4.5px;
+            color: black;
+        }
+        
+        .city-lane {
+            width: 57.72px;
+            margin-bottom: 23.5px
+        }
+        
+        .item-city {
+            height: auto;
+            background-color: #FAFAFA;
+            width: 353px;
+        }
+        
+        .greed-city {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(274px, 1fr));
+            grid-gap: 44px;
+            margin: 0 auto;
+            margin-top: 65px;
+            width: 100%
+        }
+        
+        .bg-black {
+            background-color: black;
+            color: white;
+            margin-top: 117px;
+            height: auto;
+            padding: 136px;
+        }
+        
+        .we {
+            /* margin-top: 116px; */
+            margin-bottom: 53px;
+        }
+        
+        .item-sytatic h1 {
+            font-size: 79px;
+            font-weight: 300;
+            margin-bottom: 9px;
+        }
+        
+        .greed-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(231px, 1fr));
+            grid-gap: 106px;
+            margin: 0 auto;
+            margin-top: 65px;
+            width: 100%;
+            align-items: center;
+        }
+        
+        .item-sytatic {
+            width: 364px;
+        }
+        
+        .item-sytatic p {
+            margin-bottom: 121px;
+        }
+        
+        .ok-lets-go {
+            margin-bottom: 145px;
+        }
+        
+        .screen-4 {
+            margin-top: 145px;
+            height: auto;
+        }
+        
+        .color-1 {
+            color: #F77737;
+        }
+        
+        .color-2 {
+            color: #EA4C89;
+        }
+        
+        .color-3 {
+            color: #EA4C89;
+        }
+        
+        .color-4 {
+            color: #94352B;
+        }
+        

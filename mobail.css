@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1260px) {
+            .pc {
+                        display: none;
+            }
+
+            .greed {
+                        grid-template-columns: repeat(auto-fill, minmax(367px, 1fr));
+            }
+
+            .item-city {
+                        width: 100%;
+            }
+
+            .item-sytatic p {
+                        margin-bottom: 31px;
+            }
+
+            .info-left {
+                        width: 32%;
+
+            }
+
+            .info-left h1 {
+                        font-size: 26px;
+                        font-weight: normal;
+            }
+
+            .info-left p {
+                        color: #9B9B9B;
+                        font-size: 13px;
+                        width: 99%;
+            }
+
+            .taxi-raight {
+                        width: 506px;
+            }
+
+            .green-link {
+                        border-radius: 14px;
+                        padding: 25px 21px;
+            }
+
+            .taxi-raght {
+                        margin-top: 74px;
+            }
+
+            .item-sytatic h1 {
+                        font-size: 58px;
+            }
+
+            .defolt-h1 {
+                        font-size: 20px;
+            }
+
+            .screen-4 {
+                        margin-top: 74px;
+            }
+
+            .bg-black {
+                        margin-top: 80px;
+                        padding: 12px;
+            }
+
+            .links-left {
+                        margin-right: 154px;
+            }
+
+            header {
+                        margin-top: 29px;
+                        margin-bottom: 24.5px;
+            }
+
+            .greed-city {
+                        grid-gap: 24px;
+            }
+
+            .green-link-2 {
+                        padding: 16px 122px;
+                        width: 438px
+            }
+
+            .item p {
+                        width: 443px;
+            }
+
+            .inviz {
+                        display: flex;
+            }
+
+            .inviz h1 {
+                        margin-left: 21px;
+            }
+
+            .inviz img {
+                        margin-bottom: 13px;
+            }
+
+}
